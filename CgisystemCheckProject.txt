@@ -1,0 +1,21 @@
+# This is a README for the files and related scripts
+# created to make basic monitoring
+
+1) There are a few scripts located under /var/www/cgi-bin, those files will be needed by apache/nginx to help enable basic system checks.
+2) The goal of this project is to be able to have a sort of a basic check on a system as initiated by a user who does not have any accounts on the system.
+3) The files:
+Press ENTER or type command to continue
+total 8
+-rwxr-xr-x 1 root root 544 Jan 25 15:42 console.cgi
+-rwxr-xr-x 1 root root 574 Jan 25 14:13 execute_command.cgi
+Press ENTER or type command to continue
+[No write since last change]
+-rwxr-xr-x 1 root root 137 Jan 25 14:07 /sbin/ec2
+Press ENTER or type command to continue
+[No write since last change]
+-rwxr-xr-x 1 root root 137 Jan 25 14:07 /sbin/ec2
+4) ec2 is a script wrapper created specifically for executing a command and
+called by  "execute_command.cgi" script 
+
+
+
